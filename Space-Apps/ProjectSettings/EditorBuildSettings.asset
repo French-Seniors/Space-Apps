@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/mainMenu.unity
     guid: d3d3a8446e7ac074280bbbef80a1fd39
   - enabled: 1
+    path: Assets/missionPlanning.unity
+    guid: d92849d345453ec488ac4454ccc781da
+  - enabled: 1
     path: Assets/Launch.unity
     guid: 736419f09b70cf143affb9bd235dc4d8
   - enabled: 1
