@@ -64,8 +64,8 @@ public class ResourceManager : MonoBehaviour
         if (fuelSlider != null) fuelSlider.value = fuel;
         if (energySlider != null) energySlider.value = energy;
 
-        if (fuelText != null) fuelText.text = "Fuel " + Mathf.RoundToInt(fuel).ToString();
-        if (energyText != null) energyText.text = "Energy " + Mathf.RoundToInt(energy).ToString();
+        if (fuelText != null) fuelText.text = "FUEL " + Mathf.RoundToInt(fuel).ToString();
+        if (energyText != null) energyText.text = "ENERGY " + Mathf.RoundToInt(energy).ToString();
         if (debrisCountText != null) debrisCountText.text = "DEBRIS " + Mathf.RoundToInt(Magnet.objectsCount).ToString();
     }
 }
