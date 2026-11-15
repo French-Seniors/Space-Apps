@@ -230,6 +230,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 744847183}
+        m_TargetAssemblyTypeName: PlanningScript, Assembly-CSharp
+        m_MethodName: FuelScaling
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &160085486
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1248,6 +1260,130 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 707701754}
   m_CullTransparentMesh: 1
+--- !u!1001 &731795357
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1929772688}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: c9e2069e4019a72498e040942d2b9ee2, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c9e2069e4019a72498e040942d2b9ee2, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c9e2069e4019a72498e040942d2b9ee2, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c9e2069e4019a72498e040942d2b9ee2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.602
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c9e2069e4019a72498e040942d2b9ee2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.13
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c9e2069e4019a72498e040942d2b9ee2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c9e2069e4019a72498e040942d2b9ee2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c9e2069e4019a72498e040942d2b9ee2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c9e2069e4019a72498e040942d2b9ee2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c9e2069e4019a72498e040942d2b9ee2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c9e2069e4019a72498e040942d2b9ee2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c9e2069e4019a72498e040942d2b9ee2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c9e2069e4019a72498e040942d2b9ee2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c9e2069e4019a72498e040942d2b9ee2, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c9e2069e4019a72498e040942d2b9ee2, type: 3}
+      propertyPath: m_Name
+      value: base
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c9e2069e4019a72498e040942d2b9ee2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 731795360}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c9e2069e4019a72498e040942d2b9ee2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 731795361}
+  m_SourcePrefab: {fileID: 100100000, guid: c9e2069e4019a72498e040942d2b9ee2, type: 3}
+--- !u!4 &731795358 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c9e2069e4019a72498e040942d2b9ee2, type: 3}
+  m_PrefabInstance: {fileID: 731795357}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &731795359 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c9e2069e4019a72498e040942d2b9ee2, type: 3}
+  m_PrefabInstance: {fileID: 731795357}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &731795360
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 731795359}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.00899235
+  m_Height: 0
+  m_Direction: 1
+  m_Center: {x: -0.000014072432, y: -0.0000009717608, z: 0.008739708}
+--- !u!114 &731795361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 731795359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a1ab4e65fded794a9b8c05169fb9b34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
 --- !u!1 &736961910
 GameObject:
   m_ObjectHideFlags: 0
@@ -1350,6 +1486,18 @@ MonoBehaviour:
       - m_Target: {fileID: 744847183}
         m_TargetAssemblyTypeName: PlanningScript, Assembly-CSharp
         m_MethodName: MagnetPower
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 744847183}
+        m_TargetAssemblyTypeName: PlanningScript, Assembly-CSharp
+        m_MethodName: MagnetScaling
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2520,6 +2668,7 @@ Transform:
   - {fileID: 543450652416526021}
   - {fileID: 4165058554890741089}
   - {fileID: 8016543619575137897}
+  - {fileID: 731795358}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 46.706, y: 129.037, z: 6.027}
 --- !u!1 &2092220383
@@ -2624,6 +2773,18 @@ MonoBehaviour:
       - m_Target: {fileID: 744847183}
         m_TargetAssemblyTypeName: PlanningScript, Assembly-CSharp
         m_MethodName: EnergyProduction
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 744847183}
+        m_TargetAssemblyTypeName: PlanningScript, Assembly-CSharp
+        m_MethodName: WingScaling
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2782,6 +2943,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543450652416526021}
   - component: {fileID: 919132148157226112}
+  - component: {fileID: 919132148157226113}
   m_Layer: 0
   m_Name: mainBody
   m_TagString: Untagged
@@ -2810,6 +2972,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.12, y: 0.63, z: 0.64}
   m_Center: {x: -0.05, y: 0.1, z: 0}
+--- !u!114 &919132148157226113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148157226111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 613a40177e084cd49b794db5e41c35ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
 --- !u!4 &1023935357212769193
 Transform:
   m_ObjectHideFlags: 0
@@ -2921,6 +3095,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4165058554890741089}
   - component: {fileID: 4165058554890741090}
+  - component: {fileID: 4165058554890741091}
   m_Layer: 0
   m_Name: leftWing
   m_TagString: Untagged
@@ -3047,6 +3222,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.6, y: 0.34, z: 1.31}
   m_Center: {x: 0, y: 0, z: 0.78}
+--- !u!114 &4165058554890741091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3640758000589127643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e235241789dc11e418f323be89e919a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WingScaling
 --- !u!23 &4224548052844031400
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3225,6 +3412,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8016543619575137897}
   - component: {fileID: 8016543619575137898}
+  - component: {fileID: 8016543619575137899}
   m_Layer: 0
   m_Name: rightWing
   m_TagString: Untagged
@@ -3318,6 +3506,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.56, y: 0.3, z: 1.29}
   m_Center: {x: 0, y: 0, z: -0.79}
+--- !u!114 &8016543619575137899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7209044049985215699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e235241789dc11e418f323be89e919a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
 --- !u!33 &8179955246164532702
 MeshFilter:
   m_ObjectHideFlags: 0
