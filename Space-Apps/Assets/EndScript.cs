@@ -14,7 +14,7 @@ public class EndScript : MonoBehaviour
     void Start()
     {
         count.text = $"{ResourceManager.finalCount} SPACE DEBRIS COLLECTED";
-        percent.text = $"{ResourceManager.finalCount/500}% OF SPACE DEBRIS CLEARED";
+        percent.text = $"{(ResourceManager.finalCount/500).ToString("F2")}% OF SPACE DEBRIS CLEARED";
         MenuScript.money += ResourceManager.finalCount*10f;
         MenuScript.totalCleared += ResourceManager.finalCount;
     }
