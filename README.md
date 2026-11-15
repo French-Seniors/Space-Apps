@@ -10,6 +10,24 @@ Players alternate between a planning phase—making engineering trade-offs to up
 
 Ultimately, Space Sweeper makes the abstract problem of space pollution tangible, educating players on why keeping our orbit clean is essential for the safety of astronauts, satellites, and future space exploration.
 
+## Tutorial
+
+### Movement and resources
+
+- Use the left and right arrow keys to move the spacecraft.
+- Movement uses energy first.
+- If you do not have enough energy, the spacecraft automatically uses fuel instead.
+- Energy replenishes over time, but fuel does not.
+- Fuel is also gradually consumed as time passes, so plan your route carefully and avoid wasting it.
+
+### Upgrades
+
+During the planning phase, use your budget to improve your spacecraft:
+
+- **Energy production:** Increases how quickly your energy replenishes, allowing you to move more often without using fuel.
+- **Fuel capacity:** Increases the maximum amount of fuel you can store, giving you more range when energy is unavailable.
+- **Magnet power:** Improves your ability to collect orbital debris.
+
 ## Links
 
 - [Find our team on the NASA Space Apps Challenge website](https://www.spaceappschallenge.org/2026/find-a-team/french-seniors)
