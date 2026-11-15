@@ -37,7 +37,7 @@ public class Magnet : MonoBehaviour
         Collider[] objectsInRange = Physics.OverlapSphere(transform.position, radius, targetLayer);
         
         // Met à jour le compteur en permanence
-        objectsCount = objectsInRange.Length - 2;
+        objectsCount = objectsInRange.Length - 5;
     }
     void OnDrawGizmosSelected()
     {

@@ -20,5 +20,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/mainGame.unity
     guid: dd45c895e206b6047a976732f026c62b
+  - enabled: 1
+    path: Assets/endScreen.unity
+    guid: 33a8ce7b85e11c349ae16e01e6195163
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}

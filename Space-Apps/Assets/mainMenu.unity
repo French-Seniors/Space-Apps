@@ -1156,7 +1156,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: SPACE CLEANER
+  m_text: SPACE SWEEPER
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 075e4ea5187eff749a1b61483867cca1, type: 2}
   m_sharedMaterial: {fileID: 7399499708414857591, guid: 075e4ea5187eff749a1b61483867cca1, type: 2}

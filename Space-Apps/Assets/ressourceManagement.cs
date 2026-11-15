@@ -1,6 +1,7 @@
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ResourceManager : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class ResourceManager : MonoBehaviour
     
     public static float energy = 100f;
     public float maxEnergy = 100f;
+    public static float finalCount;
 
     [Header("Paramètres")]
     float energyRegenPerSecond = MenuScript.energyRegenPerSecond; // Régénère 5 points d'énergie par seconde
@@ -27,6 +29,11 @@ public class ResourceManager : MonoBehaviour
     {
         if (fuelSlider != null) fuelSlider.maxValue = maxFuel;
         if (energySlider != null) energySlider.maxValue = maxEnergy;
+    }
+
+    void Awake()
+    {
+        energy = 100f;
     }
 
     void Update()
@@ -47,13 +54,18 @@ public class ResourceManager : MonoBehaviour
                 energy = 0;
             }
         }
+        if (fuel <= 0)
+        {
+            finalCount = Magnet.objectsCount;
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
 
         // 2. AFFICHAGE : On met à jour l'UI APRÈS les calculs
         if (fuelSlider != null) fuelSlider.value = fuel;
         if (energySlider != null) energySlider.value = energy;
 
-        if (fuelText != null) fuelText.text = "Fuel : " + Mathf.RoundToInt(fuel).ToString();
-        if (energyText != null) energyText.text = "Energy : " + Mathf.RoundToInt(energy).ToString();
-        if (debrisCountText != null) debrisCountText.text = "Debris : " + Mathf.RoundToInt(Magnet.objectsCount).ToString();
+        if (fuelText != null) fuelText.text = "Fuel " + Mathf.RoundToInt(fuel).ToString();
+        if (energyText != null) energyText.text = "Energy " + Mathf.RoundToInt(energy).ToString();
+        if (debrisCountText != null) debrisCountText.text = "DEBRIS " + Mathf.RoundToInt(Magnet.objectsCount).ToString();
     }
 }
