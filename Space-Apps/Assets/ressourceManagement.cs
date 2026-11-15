@@ -5,14 +5,14 @@ using UnityEngine.UI;
 public class ResourceManager : MonoBehaviour
 {
     [Header("Valeurs actuelles")]
-    public float fuel = 100f;
-    public float maxFuel = 100f;
+    float fuel = MenuScript.maxFuel;
+    float maxFuel = MenuScript.maxFuel;
     
     public static float energy = 100f;
     public float maxEnergy = 100f;
 
     [Header("Paramètres")]
-    public float energyRegenPerSecond = 10f; // Régénère 5 points d'énergie par seconde
+    float energyRegenPerSecond = MenuScript.energyRegenPerSecond; // Régénère 5 points d'énergie par seconde
 
     [Header("Éléments UI - Textes")]
     public TextMeshProUGUI fuelText;

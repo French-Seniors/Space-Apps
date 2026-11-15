@@ -13,7 +13,7 @@ public class PlanningScript : MonoBehaviour
 
     public void Update()
     {
-        maxFuel.text = $"FUEL CAPACITY LVL {MenuScript.maxFuel/10-7}";
+        maxFuel.text = $"FUEL CAPACITY LVL {MenuScript.maxFuel/10-4}";
         energyRegenPerSecond.text = $"ENERGY PRODUCTION LVL {MenuScript.energyRegenPerSecond-4}";
         magnetForce.text = $"MAGNET POWER LVL {MenuScript.magnetForce-4}";
         money.text = $"${MenuScript.money}M";

@@ -6,7 +6,7 @@ public class Magnet : MonoBehaviour
     [Header("Résultat en temps réel")]
     public static int objectsCount = 0;
     [Header("Paramètres de la zone")]
-    public float radius = 5f;
+    float radius = MenuScript.magnetForce;
     public LayerMask targetLayer;
     private SphereCollider myCollider;
 
