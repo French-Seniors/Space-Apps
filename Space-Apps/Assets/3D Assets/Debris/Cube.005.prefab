@@ -101,7 +101,7 @@ Rigidbody:
   m_GameObject: {fileID: 4663789596866609244}
   serializedVersion: 5
   m_Mass: 1
-  m_LinearDamping: 6
+  m_LinearDamping: 2
   m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -138,5 +138,5 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 191.10791, y: 165.72812, z: 92.0296}
+  m_Size: {x: 191.10791, y: 154.9, z: 57}
   m_Center: {x: 91.46112, y: 32.57423, z: 34.12224}

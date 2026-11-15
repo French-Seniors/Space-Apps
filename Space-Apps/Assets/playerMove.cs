@@ -1,10 +1,10 @@
 using UnityEngine;
-
 public class PlayerMovement : MonoBehaviour
 {
     public Rigidbody rb;
     
     [Header("Réglages du Burst")]
+
     public float burstForce = 15f; // Puissance du dash
     public float burstCooldown = 0.3f; // Temps d'attente entre deux dashs
     
@@ -48,9 +48,9 @@ public class PlayerMovement : MonoBehaviour
         // Rotation sur l'axe Z (roulis)
         transform.rotation = Quaternion.Euler(0f, 0f, currentTilt);
     }
-
     void ExecuteBurst(float direction)
     {
+        ResourceManager.energy -= 30f;
         // Stoppe l'élan horizontal précédent pour éviter de glisser à l'infini
         rb.linearVelocity = new Vector3(0f, rb.linearVelocity.y, rb.linearVelocity.z);
         
