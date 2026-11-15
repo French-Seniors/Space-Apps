@@ -11,6 +11,9 @@ public class PlanningScript : MonoBehaviour
         public TMP_Text energyRegenPerSecond;
         public TMP_Text magnetForce;
         public TMP_Text money;
+        public TMP_Text price1;
+        public TMP_Text price2;
+        public TMP_Text price3;
 
         Vector3 baseFuel = new Vector3(1f,1f,1f);
         Vector3 baseWing = new Vector3(1f,1f,1f);
@@ -22,6 +25,9 @@ public class PlanningScript : MonoBehaviour
         energyRegenPerSecond.text = $"ENERGY PRODUCTION LVL {MenuScript.energyRegenPerSecond-4}";
         magnetForce.text = $"MAGNET POWER LVL {MenuScript.magnetForce-4}";
         money.text = $"${MenuScript.money}M";
+        price1.text = $"${MenuScript.price}M";
+        price2.text = $"${MenuScript.price}M";
+        price3.text = $"${MenuScript.price}M";
     }
 
     public void StartMission()
@@ -31,28 +37,31 @@ public class PlanningScript : MonoBehaviour
 
     public void EnergyProduction()
     {
-        if (MenuScript.money >= 10f)
+        if (MenuScript.money >= MenuScript.price)
         {
             MenuScript.energyRegenPerSecond += 1f;
-            MenuScript.money -= 10f;
+            MenuScript.money -= MenuScript.price;
+            MenuScript.price *= 1.2f;
         }
     }
 
     public void FuelCapacity()
     {
-        if (MenuScript.money >= 10f)
+        if (MenuScript.money >= MenuScript.price)
         {
             MenuScript.maxFuel += 10f;
-            MenuScript.money -= 10f;
+            MenuScript.money -= MenuScript.price;
+            MenuScript.price *= 1.2f;
         }
     }
 
     public void MagnetPower()
     {
-        if (MenuScript.money >= 10f)
+        if (MenuScript.money >= MenuScript.price)
         {
             MenuScript.magnetForce += 1f;
-            MenuScript.money -= 10f;
+            MenuScript.money -= MenuScript.price;
+            MenuScript.price *= 1.2f;
         }
     }
 

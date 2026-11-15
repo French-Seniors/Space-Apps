@@ -10,13 +10,17 @@ public class MenuScript : MonoBehaviour
     public static Vector3 wingScale = new Vector3(1f,1f,1f);
     public static Vector3 fuelScale = new Vector3(1f,1f,1f);
     public static Vector3 magnetScale = new Vector3(20f,20f,20f);
+    public static float price;
+    public static float totalCleared;
 
-    void Awake()
+    void Start()
     {
         maxFuel = 50f;
         energyRegenPerSecond = 5f;
         magnetForce = 5f;
-        money = 200f;
+        money = 0f;
+        price = 10f;
+        totalCleared = 0f;
     }
 
     public void StartMission()
