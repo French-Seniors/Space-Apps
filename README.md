@@ -15,6 +15,10 @@ Ultimately, Space Sweeper makes the abstract problem of space pollution tangible
 - [Find our team on the NASA Space Apps Challenge website](https://www.spaceappschallenge.org/2026/find-a-team/french-seniors)
 - [Project showcase](https://youtu.be/sFHxEFXwWFs)
 
+## Credits
+
+- Music: **“Heroic” by Alex-Productions**, promoted by [Chosic](https://www.chosic.com/), licensed under [Creative Commons CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
