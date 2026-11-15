@@ -1,13 +1,38 @@
 fileFormatVersion: 2
-guid: 7442f57ba3f15e54bb92c0891e7f8be5
+guid: f86352c575d75104bacbb33f7caa68a6
 ModelImporter:
   serializedVersion: 24600
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Atmosphere
+    second: {fileID: 2100000, guid: c63a5d5fb5d84d6498e10cdc66f96a5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Clouds
+    second: {fileID: 2100000, guid: 317b377f326d2d342a8f3d6e8615614c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EarthMaterial
+    second: {fileID: 2100000, guid: a2b96e6aa3fd5574c84252560e596a4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: False AtmosphereA
+    second: {fileID: 2100000, guid: ffcf3b82f2b16144291c073c756d0cf1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: False AtmosphereB
+    second: {fileID: 2100000, guid: 8b755bf875607834ebc2b6be50cdd60a, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
-    materialSearch: 1
+    materialSearch: 2
     materialLocation: 1
     searchTexturesGlobally: 0
   animations:
